@@ -1,0 +1,16 @@
+@import url('../places/__place/places__place.css');
+@import url('../places/__row-high/places__row-high.css');
+@import url('../places//__row-low/places__row-low.css');
+@import url('../places/__image/places__image.css');
+@import url('../places/__paragraph/places__parapgraph.css');
+@import url('../places/__title/places__title.css');
+@import url('../places/__url-heading/places__url-heading.css');
+@import url('../places/__url/places__url.css');
+@import url('../places/__website/places__website.css');
+@import url('../places/__link/places__link.css');
+
+.places {
+  margin: 0 auto;
+  max-width: 984px;
+}
+

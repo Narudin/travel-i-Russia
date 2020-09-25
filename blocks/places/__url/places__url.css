@@ -1,0 +1,6 @@
+.places__url {list-style-type: none;
+}
+.places__url:hover {
+  opacity: .7;
+  transition: .2s;
+}

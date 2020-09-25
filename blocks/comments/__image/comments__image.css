@@ -1,0 +1,25 @@
+.comments__image { 
+  max-width: 100px;
+  border-radius: 96px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .comments__image{
+    
+    margin: 0 auto  ;
+    margin-top: 8px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+  
+  .comments__image{
+    
+    margin: 0 auto  ;
+  }
+}
+

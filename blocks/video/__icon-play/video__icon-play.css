@@ -1,0 +1,30 @@
+.video__icon-play 
+  { width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  @media screen and (max-width: 768px) {
+  
+    .video__icon-play {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      margin-left: 0px;
+      margin-bottom: 0px;
+     }
+    }
+  @media screen and (max-width: 425px) {
+  
+    .video__icon-play {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      margin-left: 0px;
+      margin-bottom: 0px;
+     }
+    }
+
+
+

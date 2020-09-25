@@ -1,0 +1,54 @@
+.page {
+  min-width: 1024px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+  
+  .page {
+    box-sizing: border-box;
+    
+    min-width: 1268px;
+    max-width: 1440px;
+  }
+}
+@media screen and (max-width: 1268px) {
+  
+  .page {
+    
+    
+    min-width: 1024px;
+    max-width: 1268px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  
+  .page {
+    
+    
+    min-width: 768px;
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .page {
+    
+    
+    min-width: 425px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  
+  .page {
+    
+    padding: 0px;
+    min-width: 320px;
+    max-width: 425px;
+  }
+}

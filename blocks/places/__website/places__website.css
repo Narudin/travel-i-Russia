@@ -1,0 +1,30 @@
+
+.places__website {
+  margin-left: 3px;
+}
+
+
+@media screen and (max-width:768px) {
+  
+  .places__website {
+    padding-left: 48px;
+    padding-bottom: 26px;
+    margin-top: 0px;
+    
+  }
+}
+
+@media screen and (max-width:730px) {
+  
+  .places__website {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  
+  .places__website {
+    display: none;
+    
+  }
+}

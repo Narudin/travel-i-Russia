@@ -1,0 +1,90 @@
+.video__item {
+  
+  width: 49vw;
+  
+  height: 22.6vw;
+  max-height: 323px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end;
+  position: relative;
+  margin: 0 auto;
+  margin: 9px;
+  text-decoration: none;
+  
+}
+
+.video__item:first-of-type   {
+  background-image: url("../../../images/kamchatka.jpg");
+  background-repeat: round;
+}
+.video__item:nth-of-type(2)  {
+  background: url("../../../images/observatory.jpg");
+  background-repeat: round;
+}
+
+ .video__item:hover:first-of-type  {
+  background:  linear-gradient(rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)), url("../../../images/kamchatka.jpg");
+  background-repeat: round;
+}
+
+.video__item:hover:nth-of-type(2)  {
+  background:  linear-gradient(rgba(0,0,0,0.3),
+  rgba(0,0,0,0.3)), url("../../../images/observatory.jpg");
+  background-repeat: round;
+}
+
+@media screen and (max-width: 1268px) {
+  
+  .video__item {
+    height: 25.7vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .video__item {
+    width: 45vw;
+    height: 28.5vw;
+    
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .video__item {
+    width: 46vw;
+    height: 26vw;
+    margin: 8px;
+    
+  }
+}
+@media screen and (max-width: 625px) {
+  
+  .video__item {
+    width: 70vw;
+    height: 45vw;
+    margin: 8px;
+    
+  }
+}
+@media screen and (max-width: 425px) {
+  
+  .video__item {
+    width: 92.5vw;
+    height: 54vw;
+    margin: 4px;
+  }
+}
+@media screen and (max-width: 320px) {
+  
+  .video__item {
+    width: 92.5vw;
+    height: 61vw;
+    margin: 4px;
+  }
+}

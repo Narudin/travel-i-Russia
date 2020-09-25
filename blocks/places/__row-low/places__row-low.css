@@ -1,0 +1,22 @@
+.places__row-low {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+@media screen and (max-width: 730px) {
+  
+  .places__row-low {
+    flex-direction:column;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  
+  .places__row-low {
+    flex-direction:column;
+  }
+}

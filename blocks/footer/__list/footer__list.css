@@ -1,0 +1,32 @@
+.footer__list {
+  display: inline;
+  text-decoration: none;
+  font-family: 'Inter',Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  margin-right: 18px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px)  {
+  
+  .footer__list{
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 425px)  {
+  
+  .footer__list{
+  display:list-item;
+  font-size: 24px;
+  line-height: 41px;
+  margin: 0 auto;
+  list-style-type:none ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+}
